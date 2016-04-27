@@ -1,0 +1,13 @@
+ul {
+  list-style-type: none;
+}
+
+col-xs-1{
+  border: 5%;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
