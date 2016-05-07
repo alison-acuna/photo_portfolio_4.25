@@ -15,3 +15,27 @@
   },
 
 ]*/
+
+
+/*  This should be in its own file
+// Accessed JSON file from the same location as a our website
+// Source properties were random images found online
+
+var endpoint = 'photos.json'
+
+$.getJSON(endpoint)
+  .done(function (res) {
+    console.log(res)
+    // render the first match
+    // $('<') creates new element that we will need to append to our page.  Example $('<img />')
+    res.map(function (item){
+      $('<img />')
+        .attr('src', item.src)
+        // ? res.descends down the informoation
+        .appendTo('.photos')
+        // .appendTo() takes a selector
+    })
+  })
+
+
+*/
