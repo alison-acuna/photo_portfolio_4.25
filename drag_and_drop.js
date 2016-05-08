@@ -80,7 +80,8 @@ function uploadImgur (base64){
             // move dragged elem to the selected drop target
       if ( event.target.className == "dropzone" ) {
           event.target.style.background = "blue";
-          openFile(event)
+          console.log(event)
+          window.file = openFile(event)
           // I'm not sure what to feed in openFile() above
         }
   }, false);
