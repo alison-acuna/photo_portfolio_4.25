@@ -8,7 +8,9 @@ function openFile (event) {
   var reader = new FileReader();
   reader.onload = function(){
     var dataURL = reader.result;
-    uploadImgur(dataURL)
+    var base64 = dataURL.replace(/.*base64\,/, '')
+    console.log(base64)
+    uploadImgur(base64)
   };
   reader.readAsDataURL(input.files[0]);
 }
@@ -85,6 +87,13 @@ function uploadImgur (base64){
           // I'm not sure what to feed in openFile() above
         }
   }, false);
+
+// in jquery
+// $("#file").on("change", openFile)
+
+var fileInput = document.querySelector("#file")
+
+fileInput.addEventListener("change", openFile)
 
 
 
