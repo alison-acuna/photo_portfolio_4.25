@@ -1,7 +1,7 @@
 // Create lightbox effect
 
 
-$('.image').click(function() {
-    $(this).toggleClass('image');
+$('.img-responsive').click(function() {
+    $(this).toggleClass('img-responsive');
     $(this).toggleClass('image_lightbox');
 });

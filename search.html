@@ -18,9 +18,14 @@
       <li role="presentation"  class="active"><a href="search.html"> Find Photos on the Web </a></li>
     </ul>
   </header>
-  <h3> Search </h3>
-  <p> Search for more cats!  Or something else if you would like. </p><input class="text" id="fluffy">
-  <button type="button" class="flickrSearch"> Search </button>
+  <h3> Search <small> For more cats!  Or something else if you prefer.</small></h3>
+  <p>  </p>
+  <form>
+    <div class="form-group">
+      <label for="fluffy">Search</label>
+        <input class="text" class="form-control" placeholder="Search" id="fluffy">
+        <button type="button" class="btn btn-default" id="flickrSearch"> Search </button>
+    </div>
   <div class="photos"></div>
 </body>
 <footer>

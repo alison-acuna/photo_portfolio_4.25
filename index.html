@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
   </head>
 <body>
   <div class="banner">
   <header>
-    <h1 class="text-overlay">
-      Cat Lovers Photo Album
-    </h1>
+    <div class="page-header">
+      <h1 class="text-overlay">
+        Cat Lovers Photo Album
+      </h1>
+    </div>
     <ul class="nav nav-tabs">
       <li role="presentation" class="active"> <a href="index.html"> Album </a></li>
       <li role="presentation"><a href="upload.html"> Upload more Photos </a></li>
@@ -24,32 +29,37 @@
   <br>
   <!-- <button type="button" class="lightbox_trigger">lightbox</button> -->
   <br>
-  <ul class = "portfolio">
   <div class="container">
+    <div class="row-fluid">
+        <div class="col-xs-4">
+          <img src="cat1.jpg" alt="photograph of a cat" class="img-responsive">
+      </div>
+    </div>
+        <div class="col-xs-4">
+          <img src="cat2.jpg" alt="photograph of a cat" class="img-responsive">
+        </div>
+      </div>
+        <div class="col-xs-4">
+          <img src="cat3.jpg" alt="photograph of a cat" class="img-responsive">
+        </div>
+      </div>
+    </div>
     <div class="row">
-      <div class="col-xs-4">
-        <li><img src="cat1.jpg" alt="photograph of a cat" class="image"></li>
+        <div class="col-xs-4">
+          <img src="cat4.jpg" alt="photograph of a cat" class="img-responsive">
+        </div>
       </div>
-      <div class="col-xs-4">
-        <li><img src="cat2.jpg" alt="photograph of a cat" class="image"></li>
+        <div class="col-xs-4">
+          <img src="cat5.jpg" alt="photograph of a cat" class="img-responsive">
+        </div>
       </div>
-      <div class="col-xs-4">
-        <li><img src="cat3.jpg" alt="photograph of a cat" class="image"></li>
-  </div>
-  <div class="row">
-    <div class="col-xs-4">
-      <li><img src="cat4.jpg" alt="photograph of a cat" class="image"></li>
-    </div>
-    <div class="col-xs-4">
-      <li><img src="cat5.jpg" alt="photograph of a cat" class="image"></li>
-    </div>
-    <div class="col-xs-4">
-      <li><img src="cat6.jpg" alt="photograph of a cat" class="image"></li>
-      <div class="photos"></div>
+        <div class="col-xs-4">
+          <img src="cat6.jpg" alt="photograph of a cat" class="img-responsive">
+        </div>
       </div>
     </div>
   </div>
-</ul>
+
 <footer>
 
 </footer>

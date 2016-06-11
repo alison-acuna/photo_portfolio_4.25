@@ -2,30 +2,23 @@ body {
   margin: 1%
 }
 
-/* Portfolio Structure*/
-
-col-xs-1{
-  border: 5%;
-}
 
 /* Lightbox */
 
-ul {
-  list-style-type: none;
-  margin: 1.5%;
-  padding: 0;
+.col-xs-4 {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50%;
 }
 
-li {
-  display: block;
+.img-responsive {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ margin: 2.5%;
 }
-
-.image {
-  width: 200px;
-  height: 200px;
-  margin: 10px;
-}
-
 
 .image_lightbox {
   box-shadow:0 0 25px #111;

@@ -5,7 +5,7 @@ var endpoint = 'https://api.flickr.com/services/feeds/photos_public.gne?jsoncall
 // })
 
 
-$('.flickrSearch').on('click', function(event){
+$('#flickrSearch').on('click', function(event){
   $.getJSON(endpoint, {
     format: 'json',
     tagmode: 'any',
